@@ -251,3 +251,12 @@ cascadiad tx staking create-validator \
 --broadcast-mode block \
 --node="https://rpc.cascadia.foundation:443"
 ```
+
+
+--- Node Status  `JAILED`
+
+```shell
+cascadiad tx slashing unjail --from cascadia1dgvqkppjyy3s7s4qlyzdsys9s94yd03kdxfll3 --gas-prices="7aCC" --gas="116000" --gas-adjustment=1.2 --chain-id=cascadia_6102-1 --yes --node https://rpc.cascadia.foundation:443
+```
+
+---
