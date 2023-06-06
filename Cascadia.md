@@ -256,7 +256,7 @@ cascadiad tx staking create-validator \
 --- Node Status  `JAILED`
 
 ```shell
-cascadiad tx slashing unjail --from <wallet > --gas-prices="7aCC" --gas="116000" --gas-adjustment=1.2 --chain-id=cascadia_6102-1 --yes --node https://rpc.cascadia.foundation:443
+cascadiad tx slashing unjail --from <wallet address> --gas-prices="7aCC" --gas="116000" --gas-adjustment=1.2 --chain-id=cascadia_6102-1 --yes --node https://rpc.cascadia.foundation:443
 ```
 
 ---
