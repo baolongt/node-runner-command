@@ -201,12 +201,12 @@ hoặc discord
 
 Cách phần nên sửa
 
-`<key_name>`: The name you inputted in Step 2.
-`<validator_name>`: The name you want to give your validator.
-`<description>`: Details about your validator node.
-`<email_address>`: Your email address.
-`<your_website>`: The URL of your website, if available.
-`<token_delegation>`: The number of tokens you want to delegate. This is denominated in aCC, which is equivalent to 1e18 CC, i.e. 1 CC = 1,000,000,000,000,000,000 aCC.
+`<key_name>`: Tên nhập ở bước 2.
+`<validator_name>`: Tên của validator.
+`<description>`: Diễn tả của validator.
+`<email_address>`: Địa chỉ email.
+`<your_website>`: Địa chỉ website.
+`<token_delegation>`: Số lượng token muốn delegate (1 CC = 1,000,000,000,000,000,000 aCC)
 
 ```shell
 cascadiad tx staking create-validator \
